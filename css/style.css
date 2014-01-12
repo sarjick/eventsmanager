@@ -1,0 +1,80 @@
+.eventsManagerTime{
+	width: 76px;
+	position: absolute;
+	margin-left: -76px;
+}
+.eventsManager{
+	overflow: hidden;
+	padding: 20px 0 0 76px;
+	width: 850px;
+}
+.eventsManagerContent{
+	border-left: 1px solid #d6d6d6;
+	background-color: #ececec;
+	width: 100px;
+	padding: 0px 10px;
+	float: left;
+	position: relative;
+}
+.eventsManagerContentInner{
+	position: relative;
+	overflow: hidden;
+}
+.eventItem{
+	position: absolute;
+}
+.hourItem{
+	text-align: right;
+	padding-right: 9px;
+	color: #686868;
+	position: relative;
+	top: -8px;
+}
+.hourItem *{
+	color: #a7a7a7;
+	font-size: 12px;
+}
+.partTime{
+	position: absolute;
+	top: 50%;
+	right: 9px;
+}
+.calendar{
+	margin: 20px;
+}
+.eventItemInner{
+	overflow: hidden;
+	background-color: #fff;
+	border-left: 4px solid #4b6ea8;
+}
+.eventItemInner:hover{
+	border-color: #000;
+}
+.eventItemInner h4{
+	color: #4b6ea9;
+	margin: 0;
+	padding: 8px 0 0 8px;
+	font-weight: normal;
+}
+.eventItemInner p{
+	padding: 0 0 0 8px;
+	margin: 0;
+	font-size: 12px;
+}
+.eventItemInfo {
+	position: absolute;
+	background-color: #fff;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	width: 100px;
+	height: 60px;
+	margin-top: -80px;
+	box-shadow: 0 0 3px #CCCCCC;
+}
+.dayTitle{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	margin: -20px 0 0 -10px;
+}
